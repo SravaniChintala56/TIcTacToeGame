@@ -8,7 +8,6 @@ This is a web-based Tic Tac Toe game built using **HTML**, **CSS**, and **JavaSc
 - Two-player game mode (Player X vs Player O)
 - Real-time win/draw detection
 - Game reset functionality
-- Responsive and clean UI
 
 ---
 
