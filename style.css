@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ea9e8d;
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 5px;
+}
+.box {
+  background-color: #daefb3;
+  width: 18vmin;
+  height: 18vmin;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #d64550;
+  outline: none;
+  border: none;
+}
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+#reset-btn {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eb5d58;
+  transition: all 0.3s ease;
+}
+.highlight {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.display {
+  display: none;
+}
+#newgame {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: #eb5d58;
+  transition: all 0.3s ease;
+}
+#reset-btn:hover,
+#newgame:hover {
+  background-color: #70e000;
+}
+#verdict {
+  color: #ea7317;
+}
